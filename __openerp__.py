@@ -27,7 +27,7 @@
     OpenERP module that adds fields to HR contracts for calculating Finnish salaries
     """,
     "website" : "http://www.opensolutions.fi",
-    "depends" : ["base","hr"],
+    "depends" : ["base","hr", "hr_contract"],
     "category" : "Generic Modules",
     "init_xml" : [],
     "demo_xml" : [],
