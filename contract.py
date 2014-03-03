@@ -12,10 +12,10 @@ class hr_contract_finnish(osv.osv):
         'yearly_income_limit': fields.float('Yearly income limit', required=False),
         'monthly_income_limit': fields.float('Monthly income limit', required=False),
         
-        'benefit_car': fields.float('Car benefit', required=True),
-        'benefit_apartment': fields.float('Apartment benefit', required=True),
-        'benefit_lunch': fields.float('Lunch benefit', required=True),
-        'benefit_other': fields.float('Other benefit', required=True),
+        'benefit_car': fields.float('Car benefit', required=False),
+        'benefit_apartment': fields.float('Apartment benefit', required=False),
+        'benefit_lunch': fields.float('Lunch benefit', required=False),
+        'benefit_other': fields.float('Other benefit', required=False),
     }
     
     _defaults = {
