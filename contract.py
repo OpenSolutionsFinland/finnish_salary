@@ -10,7 +10,7 @@ class hr_contract_finnish(osv.osv):
         'base_tax_percentage': fields.float('Base tax percentage (%)', required=False),
         'extra_tax_percentage': fields.float('Extra tax percentage (%)', required=False),
         'yearly_income_limit': fields.float('Yearly income limit', required=False),
-        'montly_income_limit': fields.float('Monthly income limit', required=False),
+        'monthly_income_limit': fields.float('Monthly income limit', required=False),
         
         'benefit_car': fields.float('Car benefit', required=True),
         'benefit_apartment': fields.float('Apartment benefit', required=True),
