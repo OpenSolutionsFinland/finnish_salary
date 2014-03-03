@@ -1,4 +1,5 @@
 from osv import osv, fields
+from openerp.tools.translate import _
 
 class hr_contract_finnish(osv.osv):
     _name="hr.contract"
