@@ -23,7 +23,7 @@ class hr_contract_finnish(osv.osv):
         'base_tax_percentage': 0.0,
         'extra_tax_percentage': 0.0,
         'yearly_income_limit': 0.0,
-        'montly_income_limit': 0.0,
+        'monthly_income_limit': 0.0,
         
         'benefit_car': 0.0,
         'benefit_apartment': 0.0,
